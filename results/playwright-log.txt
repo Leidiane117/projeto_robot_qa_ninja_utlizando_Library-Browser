@@ -1,0 +1,845 @@
+{"level":30,"time":"2022-02-27T23:18:10.480Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Listening on 64362"}
+{"level":30,"time":"2022-02-27T23:18:10.729Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:10.730Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:10.737Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-02-27T23:18:12.314Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-02-27T23:18:12.321Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-02-27T23:18:12.322Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-02-27T23:18:12.346Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Changed active context"}
+{"level":30,"time":"2022-02-27T23:18:13.197Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Video path: undefined"}
+{"level":30,"time":"2022-02-27T23:18:13.197Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Changed active page"}
+{"level":30,"time":"2022-02-27T23:18:13.260Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method newPage"}
+{"level":30,"time":"2022-02-27T23:18:13.275Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:13.288Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:13.297Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-02-27T23:18:15.429Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method goTo"}
+{"level":30,"time":"2022-02-27T23:18:15.445Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-02-27T23:18:15.447Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with //body/div[@id='root']/div[1]/div[1]/div[1]/img[1] in page."}
+{"level":30,"time":"2022-02-27T23:18:15.510Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-02-27T23:18:15.518Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-02-27T23:18:15.520Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2022-02-27T23:18:15.579Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method fillText"}
+{"level":30,"time":"2022-02-27T23:18:15.590Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-02-27T23:18:15.590Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2022-02-27T23:18:15.617Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method fillText"}
+{"level":30,"time":"2022-02-27T23:18:15.627Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method click"}
+{"level":30,"time":"2022-02-27T23:18:15.627Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with text=Entrar in page."}
+{"level":30,"time":"2022-02-27T23:18:15.696Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method click"}
+{"level":30,"time":"2022-02-27T23:18:15.705Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:15.705Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:19.766Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:19.766Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:19.802Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:19.803Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:19.812Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:19.813Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:19.833Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:19.833Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:19.838Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:19.838Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:19.866Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:19.867Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:19.872Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:19.872Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:19.896Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:19.897Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:19.900Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:19.900Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:19.926Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:19.926Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:19.931Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:19.931Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:19.955Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:19.955Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:19.958Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:19.958Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:19.984Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:19.984Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:19.987Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:19.988Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.015Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.015Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.017Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.017Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.047Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.047Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.049Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.049Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.078Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.078Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.082Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.082Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.108Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.108Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.110Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.111Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.124Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.124Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.126Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.126Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.140Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.140Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.142Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.142Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.170Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.170Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.172Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.172Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.200Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.200Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.202Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.202Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.230Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.230Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.234Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.234Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.262Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.262Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.264Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.264Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.294Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.294Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.296Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.296Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.323Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.323Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.325Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.325Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.339Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.340Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.341Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.341Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.357Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.358Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.360Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.360Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.387Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.387Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.391Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.391Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.415Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.416Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.417Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.417Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.446Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.446Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.448Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.448Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.462Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.462Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.463Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.463Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.477Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.477Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.479Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.479Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.494Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.494Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.496Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.497Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.525Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.525Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.533Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.533Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.557Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.557Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.559Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.559Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.588Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.588Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.591Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.591Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.616Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.616Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.617Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.617Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.631Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.631Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.632Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.632Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.647Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.647Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.648Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.648Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.662Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.662Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.664Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.664Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.678Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.678Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.679Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.679Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.693Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.694Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.695Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.695Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.709Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.709Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.710Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.710Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.724Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.725Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.726Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.727Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.741Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.741Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.742Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.742Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.772Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.772Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.774Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.774Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.799Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getText"}
+{"level":30,"time":"2022-02-27T23:18:20.799Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":50,"time":"2022-02-27T23:18:20.800Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","err":{"type":"Error","message":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================","stack":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================\n    at getTextContent (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6507:34)\n    at getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:6521:21)\n    at async PlaywrightServer.getText (C:\\Users\\leidi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Browser\\wrapper\\index.js:7495:28)","name":"Error"},"msg":"locator.elementHandle: Target closed\n=========================== logs ===========================\nwaiting for selector \"css=aside strong\"\n============================================================"}
+{"level":30,"time":"2022-02-27T23:18:20.800Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target closed
+=========================== logs ===========================
+waiting for selector "css=aside strong"
+============================================================
+    at getTextContent (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6507:34)
+    at getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6521:21)
+    at async PlaywrightServer.getText (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.808Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:20.809Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.828Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+================= Original suppressed error =================
+page.evaluate: Target closed
+    at executeJavascript (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6267:29)
+    at PlaywrightServer.executeJavascript (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7747:29)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.840Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:20.842Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.850Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.855Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.865Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.867Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.875Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-02-27T23:18:20.877Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method goTo"}
+================= Original suppressed error =================
+page.goto: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://body-test-web-leidiane.herokuapp.com/", waiting until "load"
+============================================================
+    at goTo (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6125:15)
+    at PlaywrightServer.goTo (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7524:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.882Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:20.882Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.902Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:20.905Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.909Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:20.910Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.916Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.917Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.931Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.932Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.943Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-02-27T23:18:20.944Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method goTo"}
+================= Original suppressed error =================
+page.goto: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://body-test-web-leidiane.herokuapp.com/", waiting until "load"
+============================================================
+    at goTo (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6125:15)
+    at PlaywrightServer.goTo (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7524:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.946Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:20.948Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.965Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:20.966Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.973Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:20.974Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:20.982Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.983Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:20.996Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:21.001Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:21.013Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-02-27T23:18:21.015Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method goTo"}
+================= Original suppressed error =================
+page.goto: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://body-test-web-leidiane.herokuapp.com/", waiting until "load"
+============================================================
+    at goTo (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6125:15)
+    at PlaywrightServer.goTo (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7524:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:21.023Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:21.025Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:21.049Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:21.051Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:21.066Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-02-27T23:18:21.070Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6147:17)
+    at PlaywrightServer.takeScreenshot (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7495:34)
+    at handleUnary (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:674:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:21.089Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:21.093Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:21.110Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:21.112Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-02-27T23:18:21.117Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Changed active context"}
+{"level":30,"time":"2022-02-27T23:18:21.117Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Changing current active page"}
+{"level":30,"time":"2022-02-27T23:18:21.117Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+    at BrowserState.activatePage (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7201:19)
+    at _switchPage (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7328:24)
+    at switchContext (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7400:11)
+    at async PlaywrightServer.switchContext (C:\Users\leidi\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7654:24) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2022-02-27T23:18:21.229Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-02-27T23:18:21.467Z","pid":19112,"hostname":"LAPTOP-RL4VIQ81","msg":"End of node method closeAllBrowsers"}
