@@ -1,9 +1,11 @@
 ***Settings***
 Documentation    Arquivo base 
-Resource         actions/actionsLogin.robot
+Resource         ../resources/actions/actionsAlunos.robot
+Resource         ../resources/actions/actionsLogin.robot
 Library          Browser
 Library          DateTime
 Library          Collections
+Library          libs/DeloreanLibrary.py
 
 
 
@@ -11,9 +13,11 @@ Library          Collections
 
 
 ***Keywords***
-Abrir Navegador
+Open Browser
    New Browser               chromium      false   #(headless)
    New Page                  about:blank  
 
-Fechar Navegador
-   Close Browser
+Go To Login 
+   Go To                    https://body-test-web-leidiane.herokuapp.com/
+   
+
