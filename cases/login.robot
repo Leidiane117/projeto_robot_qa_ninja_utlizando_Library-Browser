@@ -1,16 +1,15 @@
 ***Settings***
 Documentation      Funcionalidade: Atividades do menu login
-Resource            ../resources/base.robot
-Suite Setup          Open Browser
-Test Setup           Go To Login 
-Test Teardown        Take Screenshot
+Resource            ${EXECDIR}/resources/base.robot
+Test Setup           Open Browser
+Test Teardown        Close Browser
 
 ***Test Cases***
 Login do Administrador
   Login With                         admin@bodytest.com          pwd123 
   Get Text                           css=aside strong            should be        Administrador
   Take Screenshot
-  [Teardown]                         LocalStorage Clear          #gancho para apagar sessão após o test case
+  #[Teardown]                         LocalStorage Clear          #gancho para apagar sessão após o test case
 
 Login com Senha Incorreta
   Login With                         admin@bodytest.com        pwd1234 

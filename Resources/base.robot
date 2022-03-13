@@ -6,7 +6,7 @@ Library          Browser
 Library          DateTime
 Library          Collections
 Library          libs/DeloreanLibrary.py
-
+Library          OperatingSystem
 
 
 ***Variables***
@@ -16,8 +16,6 @@ Library          libs/DeloreanLibrary.py
 Open Browser
    New Browser               chromium      false   #(headless)
    New Page                  about:blank  
-
-Go To Login 
    Go To                    https://body-test-web-leidiane.herokuapp.com/
    
 
