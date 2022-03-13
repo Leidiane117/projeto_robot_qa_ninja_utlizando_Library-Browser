@@ -6,7 +6,7 @@ Projeto desenvolvido com proposito de ser um modelo base para teste para interfa
 
 ## PRÉ-REQUISITOS
 
-Requisitos de software e hardware necessários para executar este projeto de automação![image](https://user-images.githubusercontent.com/56703127/158045025-70932eba-64cd-4e4f-91b1-62650a17e791.png)
+Requisitos de software e hardware necessários para executar este projeto de automação <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-robot-artificial-intelligence-kiranshastry-solid-kiranshastry.png"/>
 
 
 *   Python 3
