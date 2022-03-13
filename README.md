@@ -1,12 +1,13 @@
 
 # Automacao de Teste para Web utilizando Robot Framewor com Library Browser
 
-Projeto desenvolvido com proposito de ser um modelo base para teste para interface web ![image](https://user-images.githubusercontent.com/56703127/158044780-a6e8fc20-7bac-426a-bfb3-d86e71bd1272.png)
+Projeto desenvolvido com proposito de ser um modelo base para teste para interface web 
 
 
 ## PRÉ-REQUISITOS
 
-Requisitos de software e hardware necessários para executar este projeto de automação
+Requisitos de software e hardware necessários para executar este projeto de automação![image](https://user-images.githubusercontent.com/56703127/158045025-70932eba-64cd-4e4f-91b1-62650a17e791.png)
+
 
 *   Python 3
 *   Node JS(LTS)
