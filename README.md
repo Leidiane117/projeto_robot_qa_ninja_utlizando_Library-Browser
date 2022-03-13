@@ -1,5 +1,5 @@
 
-# Automacao de Teste para Web utilizando Robot Framework com Library Browser  <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-robot-artificial-intelligence-kiranshastry-solid-kiranshastry.png"/>
+# Automacao de Teste Web utilizando Robot Framework com Library Browser  <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-robot-artificial-intelligence-kiranshastry-solid-kiranshastry.png"/>
 Projeto desenvolvido com proposito de ser um modelo base para teste para interface web 
 
 ## PRÉ-REQUISITOS
