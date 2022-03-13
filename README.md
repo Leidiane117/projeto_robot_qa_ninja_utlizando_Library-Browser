@@ -5,7 +5,7 @@ Projeto desenvolvido com proposito de ser um modelo base para teste para interfa
 
 ## PRÉ-REQUISITOS
 
-Requisitos de software e hardware necessários para executar este projeto de automação 
+Requisitos de software 
 
 *   Python 3
 *   Node JS(LTS)
@@ -21,13 +21,13 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 | Diretório                  	| Finalidade       	                                                                                        | 
 |----------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                                           |                                                                                                          |  
-| bodyTest\                 	              | Local onde fica os arquivos de deploy do projeto
-| cases\         	                          | Local onde fica todas as suítes de testes
-| logs\         	                          | Local onde fica os logs da automação
-| resources\actions\    			              | Local responsável por todas as ações (keywords) das suítes de teste, separadas por page Objects                 	|
-| resources\libs\    						            | Local onde fica os arquivos de criação de blibliotecas em python                      	|
-| resources\data-generation\    						| Local onde fica os arquivos Json para massa de teste                              		|
-| resources\main.robot                   	  | Arquivo base para inserção de bibliotecas para serem utilizadas em todo projeto e demais configurações                                	|
+| bodyTest\                 	              | Local onde fica os arquivos de deploy do projeto|
+| cases\         	                          | Local onde fica todas as suítes de testes|
+| logs\         	                          | Local onde fica os logs da automação|
+| resources\actions\    			           | Local responsável por todas as ações (keywords) das suítes de teste, separadas por page Objects                 	|
+| resources\libs\    						     | Local onde fica os arquivos de criação de blibliotecas em python                      	|
+| resources\data-generation\    				  | Local onde fica os arquivos Json para massa de teste                              		|
+| resources\main.robot                   	  | Arquivo base para inserção de bibliotecas para serem utilizadas em todo projeto e demais configurações |
 
 
 ## FRAMEWORKS UTILIZADOS
