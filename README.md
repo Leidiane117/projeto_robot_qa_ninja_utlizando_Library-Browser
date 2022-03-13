@@ -1,6 +1,5 @@
 
 # Automacao de Teste para Web utilizando Robot Framewor com Library Browser
-
 Projeto desenvolvido com proposito de ser um modelo base para teste para interface web <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-robot-artificial-intelligence-kiranshastry-solid-kiranshastry.png"/>
 
 
@@ -19,7 +18,7 @@ Requisitos de software e hardware necessários para executar este projeto de aut
     
 ## ESTRUTURA DO PROJETO
 
-| Diretório                   	| Finalidade       	                                                                                        | 
+| Diretório                  	| Finalidade       	                                                                                        | 
 |----------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                                           |                                                                                                          |  
 | bodyTest\                 	              | Local onde fica os arquivos de deploy do projeto
@@ -29,7 +28,6 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 | resources\libs\    						            | Local onde fica os arquivos de criação de blibliotecas em python                      	|
 | resources\data-generation\    						| Local onde fica os arquivos Json para massa de teste                              		|
 | resources\main.robot                   	  | Arquivo base para inserção de bibliotecas para serem utilizadas em todo projeto e demais configurações                                	|
-         
 
 
 ## FRAMEWORKS UTILIZADOS
